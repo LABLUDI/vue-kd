@@ -1,8 +1,8 @@
 <template>
-  <div class="app">
+	<div class="app">
 		<Header />
 		<Main />
-  </div>
+	</div>
 </template>
 
 <script>
@@ -20,15 +20,18 @@ export default {
 <style lang="scss">
 @import "./assets/layouts/normalize.module.scss";
 
-* {
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
 	background: #fff;
-	.container {
+}
+
+.container {
 		max-width: 1280px;
 		margin: 0 auto;
 		background: #FFFFFF;
 	}
-}
 </style>
