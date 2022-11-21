@@ -27,6 +27,7 @@ export default {
 	padding: 0;
 	margin: 0;
 	background: #fff;
+	list-style: none;
 }
 
 .container {
