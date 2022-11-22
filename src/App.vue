@@ -1,18 +1,18 @@
 <template>
 	<div class="app">
 		<Header />
-		<Main />
+		<List />
 	</div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import Main from './views/Main.vue'
+import List from './components/List.vue'
 
 export default {
 	components: {
 		Header,
-		Main,
+		List,
 	}
 }
 </script>
