@@ -83,8 +83,6 @@ export default {
 <style lang="scss" scoped>
 .header {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
 	height: 152px;
 
 
@@ -145,6 +143,11 @@ export default {
 		display: flex;
 		flex-direction: row;
 		margin-left: 28px;
+
+		li:hover {
+			border-bottom: 2px solid #6534FF;
+			cursor: pointer;
+		}
 	}
 
 	&-item:not(:last-child) {
