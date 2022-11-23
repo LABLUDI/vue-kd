@@ -140,7 +140,7 @@
 						</div>
 					</li>
 					<li class="section-people-item">
-						<img class="section-people-img" src="../img/Avatar.webp" />
+						<img class="section-people-img" src="../img/av18.webp" />
 						<div class="section-people-item__box">
 							<h3 class="section-people-title">Алексей Миногаров</h3>
 							<span class="section-people-profession">mi</span>
