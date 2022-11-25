@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/layouts/normalize.module.scss";
+@import "./scss/reset.scss";
 
 *,
 *::before,
